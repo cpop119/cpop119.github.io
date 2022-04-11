@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="yolo算法, Cpop">
-    <meta name="description" content="YOLO算法指标分析map指标：综合衡量检测效果精度：检测到的东西和实际框是否吻合recall（召回率）： 有没有框没有检测到IOU：交集和并集的比值  
-">
+    <meta name="description" content="YOLO算法指标分析（基础）map指标：综合衡量检测效果精度：检测到的东西和实际框是否吻合recall（召回率）： 有没有框没有检测到IOU：交集和并集的比值 
+TP: 正确的判断出正确的TN: 正确的判断出错误的FP: 错误的判断成正确的">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -468,7 +468,9 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="YOLO算法"><a href="#YOLO算法" class="headerlink" title="YOLO算法"></a>YOLO算法</h1><h2 id="指标分析"><a href="#指标分析" class="headerlink" title="指标分析"></a>指标分析</h2><p>map指标：综合衡量检测效果<br>精度：检测到的东西和实际框是否吻合<br>recall（召回率）： 有没有框没有检测到<br>IOU：交集和并集的比值<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180803%2Fd3ba173f0a2148f0a8a58f104c451070.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652247772&t=318db2d457a80636818bc2641602de9c" alt="IOU示例图">  </p>
+                <h1 id="YOLO算法"><a href="#YOLO算法" class="headerlink" title="YOLO算法"></a>YOLO算法</h1><h2 id="指标分析（基础）"><a href="#指标分析（基础）" class="headerlink" title="指标分析（基础）"></a>指标分析（基础）</h2><p>map指标：综合衡量检测效果<br>精度：检测到的东西和实际框是否吻合<br>recall（召回率）： 有没有框没有检测到<br>IOU：交集和并集的比值<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180803%2Fd3ba173f0a2148f0a8a58f104c451070.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652247772&t=318db2d457a80636818bc2641602de9c" alt="IOU示例图"> </p>
+<p><strong>TP</strong>: 正确的判断出正确的<br><strong>TN</strong>: 正确的判断出错误的<br><strong>FP</strong>: 错误的判断成正确的<br><strong>FN</strong>：正确的判断成错误的<br><img src="/../img/yolo_02.png"></p>
+<p>map值的计算<br><img src="/../img/sSJvKGbJwe.png" alt="精度和召回率的计算"><br>不同置信度下的精度和召回率的计算，从而得到P_R图，计算其面积得到map值<br><img src="/../img/kCChuDhOLq.png" alt="map的计算"></p>
 
                 
             </div>
@@ -630,16 +632,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2022/04/10/hello-world/">
+                <a href="/2022/04/11/yolo%E7%AE%97%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="yolo算法">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">yolo算法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -650,7 +652,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
                             </span>
                         <span class="publish-author">
                             
@@ -659,6 +661,15 @@
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/yolo/">
+                        <span class="chip bg-color">yolo</span>
+                    </a>
+                    
                 </div>
                 
             </div>

@@ -8,7 +8,7 @@
       <link href="/2022/04/11/yolo%E7%AE%97%E6%B3%95/"/>
       <url>/2022/04/11/yolo%E7%AE%97%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="YOLO算法"><a href="#YOLO算法" class="headerlink" title="YOLO算法"></a>YOLO算法</h1><h2 id="指标分析"><a href="#指标分析" class="headerlink" title="指标分析"></a>指标分析</h2><p>map指标：综合衡量检测效果<br>精度：检测到的东西和实际框是否吻合<br>recall（召回率）： 有没有框没有检测到<br>IOU：交集和并集的比值<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180803%2Fd3ba173f0a2148f0a8a58f104c451070.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652247772&t=318db2d457a80636818bc2641602de9c" alt="IOU示例图">  </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="YOLO算法"><a href="#YOLO算法" class="headerlink" title="YOLO算法"></a>YOLO算法</h1><h2 id="指标分析（基础）"><a href="#指标分析（基础）" class="headerlink" title="指标分析（基础）"></a>指标分析（基础）</h2><p>map指标：综合衡量检测效果<br>精度：检测到的东西和实际框是否吻合<br>recall（召回率）： 有没有框没有检测到<br>IOU：交集和并集的比值<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180803%2Fd3ba173f0a2148f0a8a58f104c451070.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652247772&t=318db2d457a80636818bc2641602de9c" alt="IOU示例图"> </p><p><strong>TP</strong>: 正确的判断出正确的<br><strong>TN</strong>: 正确的判断出错误的<br><strong>FP</strong>: 错误的判断成正确的<br><strong>FN</strong>：正确的判断成错误的<br><img src="/../img/yolo_02.png"></p><p>map值的计算<br><img src="/../img/sSJvKGbJwe.png" alt="精度和召回率的计算"><br>不同置信度下的精度和召回率的计算，从而得到P_R图，计算其面积得到map值<br><img src="/../img/kCChuDhOLq.png" alt="map的计算"></p>]]></content>
       
       
       
@@ -17,19 +17,6 @@
             <tag> yolo </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/04/10/hello-world/"/>
-      <url>/2022/04/10/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
