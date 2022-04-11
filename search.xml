@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>yolo算法</title>
+      <link href="/2022/04/11/yolo%E7%AE%97%E6%B3%95/"/>
+      <url>/2022/04/11/yolo%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="YOLO算法"><a href="#YOLO算法" class="headerlink" title="YOLO算法"></a>YOLO算法</h1><h2 id="指标分析"><a href="#指标分析" class="headerlink" title="指标分析"></a>指标分析</h2><p>map指标：综合衡量检测效果<br>精度：检测到的东西和实际框是否吻合<br>recall（召回率）： 有没有框没有检测到<br>IOU：交集和并集的比值<br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180803%2Fd3ba173f0a2148f0a8a58f104c451070.png&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1652247772&t=318db2d457a80636818bc2641602de9c" alt="IOU示例图">  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> yolo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/04/10/hello-world/"/>
       <url>/2022/04/10/hello-world/</url>
